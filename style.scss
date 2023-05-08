@@ -83,32 +83,29 @@ color: #FFFFFF;
     padding-top: 128px;
     padding-bottom: 128px;
     background: #000915;
-
-}
-
-.content__item-1 {
+&__item-1 {
     width: 378px;
-height: 300px;
-background-image: url(./image/play1.jpg);
-background-repeat: no-repeat;
-border-radius: 18px;
-
+    height: 300px;
+    background-image: url(./image/play1.jpg);
+    background-repeat: no-repeat;
+    border-radius: 18px;  
 }
-.content__item-2{
+&__item-2 {
     width: 378px;
-height: 300px;
+    height: 300px;
     background-image: url(./image/play2.jpg);
     background-repeat: no-repeat;
     border-radius: 18px;
-
 }
-.content__item-3 {
+&__item-3 {
     width: 378px;
     height: 300px;
     background-image: url(./image/play3.jpg);
     background-repeat: no-repeat;
     border-radius: 18px;
 }
+}
+
 .content__link {
 
 padding-left: 32px;
