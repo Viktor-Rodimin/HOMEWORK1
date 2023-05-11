@@ -3,3 +3,4 @@ let user = {
     age: 30,
     isAmin: true
 };
+user["City of Residence"]
