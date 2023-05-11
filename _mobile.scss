@@ -1,0 +1,43 @@
+@media (max-width:767px) {
+    
+br {
+    display: none;
+}
+    .header {
+        &__title {
+
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 16px;
+            margin-right: 16px;
+            justify-content: center;
+            color: #FFFFFF;
+ 
+        }
+        &__text {
+
+            font-size: 14px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+        &__button {
+            margin-left: 70.47px;
+            margin-right: 70.47px;
+        }
+    }
+
+    .content {
+        flex-wrap: wrap;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+}
