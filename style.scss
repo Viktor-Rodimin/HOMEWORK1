@@ -22,52 +22,47 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
     height: 1024px;
 
     &__title {
       padding-top: 218px;
       margin-left: 120px;
-      
-          font-family: 'Montserrat';
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 700;
       font-size: 64px;
       line-height: 78px;
       display: flex;
       align-items: center;
-      
       color: #FFFFFF;
         }
 
         &__text {
           padding-top: 32px;
-        padding-bottom: 44px;
+          padding-bottom: 44px;
           margin-left: 120px;
           font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 32px;
-      display: flex;
-      align-items: center;
-      
-      color: #FFFFFF;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 32px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
         }
         &__button {
           margin-left: 120px;
           width: 234.06px;
           height: 48.6px;
           background: #9C0332;
-      border-radius: 30px;
-      border: none;
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      color: #FFFFFF;
+          border-radius: 30px;
+          border: none;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          color: #FFFFFF;
       }
   }
   
