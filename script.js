@@ -1,2 +1,5 @@
-let age = prompt("Сколько вам лет?");
-alert("Ваш возраст: " + age);
+let user = {
+    name: "John",
+    age: 30,
+    isAmin: true
+};
