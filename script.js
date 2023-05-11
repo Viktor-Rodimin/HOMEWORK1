@@ -64,5 +64,5 @@ alert(user[info]);
 //Задание 9.4
 
 let yourName = prompt("Как ваше имя ?");
-alert(`Привет,${yourName}`);
+alert(`Привет, ${yourName} '!'`);
 //Задание 10
