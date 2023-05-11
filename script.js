@@ -1,2 +1,2 @@
-let iphoneYear = 2007;
-alert(iphoneYear);
+let jsCreator = "Brendan Eich";
+alert(jsCreator);
