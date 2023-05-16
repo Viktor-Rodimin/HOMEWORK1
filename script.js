@@ -66,3 +66,5 @@ alert(user[info]);
 let yourName = prompt("Как ваше имя ?");
 alert(`Привет, ${yourName} '!'`);
 //Задание 10
+
+
