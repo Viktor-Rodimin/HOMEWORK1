@@ -50,7 +50,8 @@
           align-items: center;
           color: #FFFFFF;
         }
-        &__button {
+
+        &__button{
           margin-left: 120px;
           width: 234.06px;
           height: 48.6px;
@@ -63,8 +64,14 @@
           font-size: 18px;
           line-height: 22px;
           color: #FFFFFF;
+          &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px #ccc;
+            cursor: url(./image/Vector.png), pointer;
+              }
+          }
       }
-  }
+  
   
 
 
@@ -78,12 +85,18 @@
     padding-top: 128px;
     padding-bottom: 128px;
     background: #000915;
+
 &__item-1 {
     width: 378px;
     height: 300px;
-    background-image: url(./image/play1.jpg);
+    background-image: url(./image/playone.png);
     background-repeat: no-repeat;
     border-radius: 18px;  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 5px #ccc;
+        }
+        cursor: url(./image/Vector.png), pointer;
 }
 &__item-2 {
     width: 378px;
@@ -91,6 +104,11 @@
     background-image: url(./image/play2.jpg);
     background-repeat: no-repeat;
     border-radius: 18px;
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 5px #ccc;
+        }
+        cursor: url(./image/Vector.png), pointer;
 }
 &__item-3 {
     width: 378px;
@@ -98,6 +116,11 @@
     background-image: url(./image/play3.jpg);
     background-repeat: no-repeat;
     border-radius: 18px;
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 5px #ccc;
+        }
+        cursor: url(./image/Vector.png), pointer;
 }
 }
 
