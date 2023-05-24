@@ -26,29 +26,40 @@
     padding-top: 282px;
 
     &__box{ 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-   
+        
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: flex-start;
+        align-items: center;
+
         &_title {
+            
             margin-left: 120px;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
             font-size: 48px;
             line-height: 59px;
+            display: flex;
+            align-items: center;
             color: #FFFFFF;
         }
         &_text {
+            
+
             margin-left: 120px;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 300;
             font-size: 18px;
             line-height: 32px;
+            display: flex;
+            align-items: center;
             color: #FFFFFF;
         }
         &_button {
+            
             margin-left: 120px;
             width: 234.06px;
             height: 48.6px;
@@ -61,6 +72,11 @@
             font-size: 18px;
             line-height: 22px;
             color: #FFFFFF;
+            &:hover {
+              transform: scale(1.05);
+              box-shadow: 0 0 5px #ccc;
+              cursor: url(./image/Vector.png), pointer;
+                  }
         }
     }
   }
@@ -69,5 +85,7 @@
     &__link {
       padding-bottom: 232px;
         margin-right: 72px;
+        cursor: url(./image/Vector.png), pointer;
+
     }
  } 

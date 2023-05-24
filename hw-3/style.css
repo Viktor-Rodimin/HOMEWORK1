@@ -8,7 +8,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 
 .center {
@@ -144,8 +144,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  justify-content: flex-start;
-  align-items: center;
+  width: 377px;
+  height: 59px;
 }
 .game__box_title {
   margin-left: 120px;
@@ -183,19 +183,16 @@ body {
   line-height: 22px;
   color: #FFFFFF;
 }
-.game__box_button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 5px #ccc;
-  cursor: url(./image/Vector.png), pointer;
-}
 
-.gamepad__link {
-  padding-bottom: 232px;
-  margin-right: 72px;
-  cursor: url(./image/Vector.png), pointer;
+.gamepad {
+  margin-top: 64px;
 }
 
 @media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   br {
     display: none;
   }
@@ -235,7 +232,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 48px;
+  gap: 135px;
   flex-wrap: wrap;
 }
 .game__box {
@@ -251,6 +248,9 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  justify-content: center;
   color: #FFFFFF;
 }
 .game__box_text {
@@ -263,13 +263,19 @@ body {
   margin-left: 16px;
   margin-right: 16px;
 }
+.game__box_button {
+  margin-left: 70.47px;
+  margin-right: 70.47px;
+}
 
+.gamepad {
+  margin-left: 16px;
+  margin-right: 16px;
+}
 .gamepad__img {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-left: 16px;
-  margin-right: 16px;
   justify-content: center;
   color: #FFFFFF;
   width: 344px;

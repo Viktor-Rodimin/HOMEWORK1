@@ -1,4 +1,9 @@
 @media (max-width:767px) {
+    .center {
+
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     
 br {
     display: none;
@@ -46,7 +51,7 @@ br {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 48px;
+    gap: 135px;
     flex-wrap: wrap;
 
     &__box {
@@ -62,6 +67,9 @@ br {
             display: flex;
             align-items: center;
             text-align: center;
+            margin-left: 16px;
+            margin-right: 16px;
+            justify-content: center;
             color: #FFFFFF;
         }
         &_text{
@@ -74,15 +82,20 @@ br {
             margin-left: 16px;
             margin-right: 16px;
         }
+        &_button {
+            margin-left: 70.47px;
+            margin-right: 70.47px;
+        }
     }
 }
 .gamepad {
+    margin-left: 16px;
+    margin-right: 16px;
     &__img {
         display: flex;
         align-items: center;
         text-align: center;
-        margin-left: 16px;
-        margin-right: 16px;
+
         justify-content: center;
         color: #FFFFFF;
         width: 344px;

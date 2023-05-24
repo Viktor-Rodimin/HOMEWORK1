@@ -29,7 +29,7 @@ else{
 
 let o = '2';
 let p = '3';
-alert(parseInt(o) + parseInt(p));
+alert(Number(o) + Number(p));
 // задание 4
 
 
@@ -66,14 +66,3 @@ if (monthNumber > 12) {
 }
 
 // Задание 5
-
-
-
-
-
-let i = 1;
-let n = 5 (prompt('Сколько раз сказать привет?'))
-while (i <= n) {
-    alert ('Привет.');
-    i++;
-}
