@@ -9,7 +9,7 @@
   }
   
   body {
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
   }
   
   .center {
@@ -139,12 +139,10 @@ padding-top: 236px;
 
 }
 .game {
-
   background-color: #000915;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 48px;
   padding-bottom: 282px;
   padding-top: 282px;
 
@@ -152,56 +150,46 @@ padding-top: 236px;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  width: 377px;
-  height: 59px;
  
       &_title {
-        margin-left: 120px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 59px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
+          margin-left: 120px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 59px;
+          color: #FFFFFF;
       }
       &_text {
-        margin-left: 120px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 32px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
+          margin-left: 120px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 32px;
+          color: #FFFFFF;
       }
-      
       &_button {
-        margin-left: 120px;
-        width: 234.06px;
-        height: 48.6px;
-        background: #9C0332;
-        border-radius: 30px;
-        border: none;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        color: #FFFFFF;
-        &:hover {
-          transform: scale(1.05);
-          box-shadow: 0 0 5px #ccc;
-          cursor: url(./image/Vector.png), pointer;
+          margin-left: 120px;
+          width: 234.06px;
+          height: 48.6px;
+          background: #9C0332;
+          border-radius: 30px;
+          border: none;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          color: #FFFFFF;
       }
-    }
   }
-
+}
 
 .gamepad {
-margin-top: 64px
+  display: flex;
+margin-right: 116px;
+gap: 135px;
 } 
-@import 'mobile';
-// @import 'boxplay';
+
+ @import 'mobile';

@@ -8,7 +8,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .center {
@@ -136,7 +136,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 48px;
   padding-bottom: 282px;
   padding-top: 282px;
 }
@@ -144,8 +143,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  width: 377px;
-  height: 59px;
 }
 .game__box_title {
   margin-left: 120px;
@@ -154,8 +151,6 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
 }
 .game__box_text {
@@ -165,8 +160,6 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
 }
 .game__box_button {
@@ -185,14 +178,12 @@ body {
 }
 
 .gamepad {
-  margin-top: 64px;
+  display: flex;
+  margin-right: 116px;
+  gap: 135px;
 }
 
 @media (max-width: 767px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
   br {
     display: none;
   }
