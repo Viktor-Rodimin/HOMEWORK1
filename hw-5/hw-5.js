@@ -96,3 +96,33 @@ function cubeNumber() {
   
   console.log(cubeNumber());
 //   Задание 6
+
+let circle1 = {
+
+    radius: 5,
+    getArea: function() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+      return 2 * Math.PI * this.radius;
+    }
+
+  };
+  
+  let circle2 = {
+
+    radius: 10,
+    getArea: function() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+      return 2 * Math.PI * this.radius;
+    }
+
+  };
+  
+  console.log(circle1.getArea()); 
+  console.log(circle1.getPerimeter()); 
+  console.log(circle2.getArea()); 
+  console.log(circle2.getPerimeter()); 
+//   Задание 7
