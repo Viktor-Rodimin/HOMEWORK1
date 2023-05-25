@@ -1,9 +1,11 @@
 function getMinNumber(a, b) {
+
     if (a < b) {
       return a;
     } else {
       return b;
     }
+
   }
   
   console.log(getMinNumber(8, 4)); 
@@ -11,11 +13,13 @@ function getMinNumber(a, b) {
 //   Задание 1
 
 function checkEvenNunb(num) {
+
     if (num % 2 === 0) {
       return 'Число четное';
     } else {
       return 'Число нечетное';
     }
+
   }
   
   console.log(checkEvenNunb(4)); 
@@ -24,7 +28,9 @@ function checkEvenNunb(num) {
 
 
 function printSquare(num) {
+
     console.log(num * num);
+
   }
   
   printSquare(4); 
@@ -32,11 +38,13 @@ function printSquare(num) {
 //   Задание 3.1
 
 function outputEvenNumb(num) {
+
     if (num % 2 === 0) {
       return 'Число четное';
     } else {
       return 'Число нечетное';
     }
+
   }
   
   console.log(outputEvenNumb(4)); 
@@ -44,6 +52,7 @@ function outputEvenNumb(num) {
 // Задание  3.2
 
 function greetUser() {
+
     const age = parseInt(prompt("Сколько вам лет?"));
   
     if (age < 0) {
@@ -53,7 +62,37 @@ function greetUser() {
     } else {
       console.log("Добро пожаловать!");
     }
+
   }
   
   greetUser();
 //   Задание 4
+
+function multiplyNumbers(num1, num2) {
+
+    if (isNaN(num1) || isNaN(num2)) {
+      return 'Одно или оба значения не являются числом';
+    } else {
+      return num1 * num2;
+    }
+
+  }
+  
+  console.log(multiplyNumbers(4, 5));
+  console.log(multiplyNumbers('Привет', 5));
+//   Задание 5
+
+function cubeNumber() {
+
+    let num = prompt('Введите число:');
+    if (isNaN(num)) {
+      return 'Переданный параметр не является числом';
+    } else {
+      let result = num * num * num;
+      return ${num} в кубе равняется ${result};
+    }
+
+  }
+  
+  console.log(cubeNumber());
+//   Задание 6
