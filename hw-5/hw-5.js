@@ -10,3 +10,15 @@ function getMinNumber(a, b) {
   console.log(getMinNumber(6, 6));
 //   Задание 1
 
+function checkEvenOdd(num) {
+    if (num % 2 === 0) {
+      return 'Число четное';
+    } else {
+      return 'Число нечетное';
+    }
+  }
+  
+  console.log(checkEvenOdd(4)); 
+  console.log(checkEvenOdd(7)); 
+//   Задание 2
+
