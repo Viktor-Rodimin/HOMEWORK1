@@ -8,7 +8,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .center {
@@ -175,12 +175,71 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+  cursor: url(./image/Vector.png), pointer;
+}
+.game__box_button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #ccc;
 }
 
 .gamepad {
   display: flex;
   margin-right: 116px;
   gap: 135px;
+}
+
+.gameword {
+  background-color: #000915;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 282px;
+  padding-top: 282px;
+}
+.gameword__box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.gameword__box_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.gameword__box_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.gameword__box_button {
+  width: 234.06px;
+  height: 48.6px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  cursor: url(./image/Vector.png), pointer;
+}
+.gameword__box_button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #ccc;
+}
+
+.gamepadword {
+  display: flex;
+  margin-left: 120px;
+  gap: 107px;
 }
 
 @media (max-width: 767px) {
@@ -217,58 +276,95 @@ body {
     margin-left: 16px;
     margin-right: 16px;
   }
-}
-.game {
-  background-color: #000915;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 135px;
-  flex-wrap: wrap;
-}
-.game__box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
-  justify-content: center;
-  align-items: center;
-}
-.game__box_title {
-  font-size: 32px;
-  line-height: 39px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 16px;
-  margin-right: 16px;
-  justify-content: center;
-  color: #FFFFFF;
-}
-.game__box_text {
-  font-size: 14px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-  margin-left: 16px;
-  margin-right: 16px;
-}
-.game__box_button {
-  margin-left: 70.47px;
-  margin-right: 70.47px;
-}
-
-.gamepad {
-  margin-left: 16px;
-  margin-right: 16px;
-}
-.gamepad__img {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  color: #FFFFFF;
-  width: 344px;
-  height: 236px;
+  .game {
+    background-color: #000915;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 135px;
+    flex-wrap: wrap;
+  }
+  .game__box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .game__box_title {
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+  .game__box_text {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .game__box_button {
+    margin-left: 70.47px;
+    margin-right: 70.47px;
+  }
+  .gamepad {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .gamepad__img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 344px;
+    height: 236px;
+  }
+  .gameword__box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .gameword__box_title {
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 16px;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+  .gameword__box_text {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 0px;
+    margin-right: 16px;
+  }
+  .gamepadword {
+    display: flex;
+    margin-left: 16px;
+    gap: 107px;
+    flex-direction: column-reverse;
+  }
+  .gamepadword__img {
+    width: 344px;
+    height: 236px;
+  }
 }/*# sourceMappingURL=style.css.map */

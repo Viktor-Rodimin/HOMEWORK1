@@ -40,7 +40,7 @@ br {
         margin-right: 16px;
     }
     
-}
+
 .game {
     background-color: #000915;
     display: flex;
@@ -50,12 +50,11 @@ br {
     flex-wrap: wrap;
 
     &__box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    justify-content: center;
-    align-items: center;
-
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
         &_title {
             font-size: 32px;
             line-height: 39px;
@@ -81,7 +80,8 @@ br {
             margin-left: 70.47px;
             margin-right: 70.47px;
         }
-    }
+
+}
 }
 .gamepad {
     margin-left: 16px;
@@ -96,4 +96,48 @@ br {
         width: 344px;
         height: 236px;
     }
+}
+.gameword {
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+        &_title {
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 0px;
+            margin-right: 16px;
+            justify-content: center;
+            color: #FFFFFF;
+        }
+        &_text{
+            font-size: 14px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: 0px;
+            margin-right: 16px;
+        }
+
+}
+}
+.gamepadword {
+
+    display: flex;
+    margin-left: 16px;
+    
+    gap: 107px;
+    flex-direction: column-reverse;
+    &__img {
+        width: 344px;
+        height: 236px;
+    }
+}
 }
