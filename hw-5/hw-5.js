@@ -10,7 +10,7 @@ function getMinNumber(a, b) {
   console.log(getMinNumber(6, 6));
 //   Задание 1
 
-function checkEvenOdd(num) {
+function checkEvenNunb(num) {
     if (num % 2 === 0) {
       return 'Число четное';
     } else {
@@ -18,9 +18,30 @@ function checkEvenOdd(num) {
     }
   }
   
-  console.log(checkEvenOdd(4)); 
-  console.log(checkEvenOdd(7)); 
+  console.log(checkEvenNunb(4)); 
+  console.log(checkEvenNunb(7)); 
 //   Задание 2
+
+
+function printSquare(num) {
+    console.log(num * num);
+  }
+  
+  printSquare(4); 
+  printSquare(7);
+//   Задание 3.1
+
+function outputEvenNumb(num) {
+    if (num % 2 === 0) {
+      return 'Число четное';
+    } else {
+      return 'Число нечетное';
+    }
+  }
+  
+  console.log(outputEvenNumb(4)); 
+  console.log(outputEvenNumb(7));
+// Задание  3.2
 
 function greetUser() {
     const age = parseInt(prompt("Сколько вам лет?"));
@@ -35,4 +56,4 @@ function greetUser() {
   }
   
   greetUser();
-//   Задание 3
+//   Задание 4
