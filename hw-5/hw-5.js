@@ -22,3 +22,17 @@ function checkEvenOdd(num) {
   console.log(checkEvenOdd(7)); 
 //   Задание 2
 
+function greetUser() {
+    const age = parseInt(prompt("Сколько вам лет?"));
+  
+    if (age < 0) {
+      console.log("Вы ввели неправильное значение");
+    } else if (age >= 0 && age <= 12) {
+      console.log("Привет, друг!");
+    } else {
+      console.log("Добро пожаловать!");
+    }
+  }
+  
+  greetUser();
+//   Задание 3
