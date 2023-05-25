@@ -89,7 +89,7 @@ function cubeNumber() {
       return 'Переданный параметр не является числом';
     } else {
       let result = num * num * num;
-      return ${num} в кубе равняется ${result};
+      return `${num} 'в кубе равняется' ${result}`;
     }
 
   }
