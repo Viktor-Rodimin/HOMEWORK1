@@ -89,3 +89,11 @@ function getLengthWords(array) {
   console.log(lengthsArray);
 //   Задание 12
 
+
+function filterPositive(array) {
+    return array.filter(num => num < 0);
+  }
+  
+  console.log(filterPositive([-1, 0, 5, -10, 56]));
+  console.log(filterPositive([-25, 25, 0, -1000, -2]))
+// Задание 13
