@@ -53,4 +53,14 @@ if (massiv7.includes(userInput)) {
 }
 // Задание 7
 
+const line = 'abcdef';
+const reversedLine = str.split('').reverse().join('');
 
+console.log(reversedLine);
+// Задание 8
+
+const massiv8 = [[1, 2, 3],[4, 5, 6]];
+const vievMassiv8 = massiv8.flat();
+
+console.log(vievMassiv8);
+//  Задание 9
