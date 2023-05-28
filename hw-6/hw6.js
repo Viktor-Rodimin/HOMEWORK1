@@ -1,29 +1,56 @@
-let arr = [1, 5, 4, 10, 0, 3];
+let massiv0  = [1, 5, 4, 10, 0, 3];
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === 10) {
+for (let i = 0; i < massiv0.length; i++) {
+  if (massiv0[i] === 10) {
     break;
   }
-  console.log(arr[i]);
+  console.log(massiv0[i]);
 }
 // Задание 1
 
-let arr = [1, 5, 4, 10, 0, 3];
-let position = arr.indexOf(4);
+let massiv1 = [1, 5, 4, 10, 0, 3];
+let position = massiv1.indexOf(4);
 console.log(position);
 // задание 2
 
-let arr = [1, 3, 5, 10, 20];
-let result = arr.join(' ');
+let massiv3 = [1, 3, 5, 10, 20];
+let result = massiv3.join(' ');
 console.log(result);
 // Задание 3
 
 
 
-
+let massiv4 = [];
+for (let i = 0; i < 3; i++) {
+  let inMassiv4 = [];
+  for (let j = 0; j < 3; j++) {
+    inMassiv4.push(1);
+  }
+  massiv4.push(inMassiv4);
+}
+console.log(massiv4);
 // Задание 4
 
-let arr = [1, 1, 1];
-arr.push(2, 2, 2);
-console.log(arr);
+let massiv5 = [1, 1, 1];
+massiv5.push(2, 2, 2);
+console.log(massiv5);
 // Задание 5
+
+let massiv6 = [9, 8, 7, 'a', 6, 5];
+massiv6.sort();
+massiv6.splice(massiv6.indexOf('a'), 1);
+massiv6 = massiv6.filter(item => typeof item === 'number');
+console.log(massiv6);
+// Задание 6
+
+const massiv7 = [9, 8, 7, 6, 5];
+const userInput = parseInt(prompt("Введите число от 1 до 10"));
+
+if (massiv7.includes(userInput)) {
+  console.log(`Число ${userInput} содержится в массиве`);
+} else {
+  console.log(`Число ${userInput} не содержится в массиве`);
+}
+// Задание 7
+
+
