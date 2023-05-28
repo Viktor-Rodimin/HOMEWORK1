@@ -64,3 +64,12 @@ const vievMassiv8 = massiv8.flat();
 
 console.log(vievMassiv8);
 //  Задание 9
+
+const massiv9 = [2, 5, 7, 1, 9, 3, 8, 4, 6, 10];
+
+for (let i = 0; i < massiv9.length - 1; i++) {
+  const sum = massiv9[i] + massiv9[i + 1];
+  console.log(sum);
+}
+// Задание 10
+
