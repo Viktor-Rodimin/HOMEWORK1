@@ -73,3 +73,19 @@ for (let i = 0; i < massiv9.length - 1; i++) {
 }
 // Задание 10
 
+let random = [4, 7, 1, 3, 6, 9, 3, 0];
+let squaredArray = random.map(item => (item**2));
+console.log(squaredArray);
+// задание 11
+
+function getLengthWords(array) {
+    const lengthsArray = array.map(word => word.length);
+    return lengthsArray;
+  }
+  
+  const array = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+  const lengthsArray = getLengthWords(array);
+  
+  console.log(lengthsArray);
+//   Задание 12
+
