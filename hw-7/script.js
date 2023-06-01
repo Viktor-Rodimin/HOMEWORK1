@@ -13,3 +13,23 @@ function getSeason() {
     }
   }
   
+
+  function gameWords() {
+  let gameWords = ['Яблоко', 'Груша', 'Виноград', 'Персик', 'Клубника', 'Апельин', 'Мандарин',];
+  gameWords = gameWords.sort(() => Math.random() - 0.5 );
+
+  alert(gameWords);
+
+  let firstQuestion = prompt('Чему равнялся первый элемент массива?');
+  let secondQuestion = prompt('Чему равнялся последний элемент массива?');
+  if (gameWords [0].toUpperCase() === firstQuestion.toUpperCase() && gameWords[6].toUpperCase() === secondQuestion.toUpperCase()) {
+    alert ('Вы ответили верно');
+  }
+  else if (gameWords[0].toUpperCase() === firstQuestion.toUpperCase() && gameWords[6].toUpperCase() !== secondQuestion.toUpperCase() || gameWords[0].toUpperCase() !== firstQuestion.toUpperCase() && gameWords[6].toUpperCase() === secondQuestion.toUpperCase()) {
+    alert('Один правильный ответ -вы близки к победе!');
+  }
+  else {
+    alert('Вы ответили не верно');
+
+  }
+  }
