@@ -67,3 +67,13 @@ const futureDate = new Date(currentDate);
 futureDate.setDate(currentDate.getDate() + 73);
 console.log(futureDate.toLocaleDateString());
 // Задание 9
+
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+let myDate = new Date(); 
+let fullDate = "Сегодняшняя дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()] + ", " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+
+console.log(fullDate)
+// Задание 10
