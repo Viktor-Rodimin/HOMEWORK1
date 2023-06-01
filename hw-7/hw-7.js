@@ -57,3 +57,7 @@ function getRandomInt (min, max) {
 }
 getRandomInt (2, 22);
 // Задание 7
+
+const currentDate = new Date();
+console.log(currentDate.toLocaleDateString());
+// Задание 8 
