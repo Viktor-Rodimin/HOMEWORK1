@@ -58,6 +58,12 @@ function getRandomInt (min, max) {
 getRandomInt (2, 22);
 // Задание 7
 
-const currentDate = new Date();
-console.log(currentDate.toLocaleDateString());
+const date = new Date();
+console.log(date.toLocaleDateString());
 // Задание 8 
+
+const currentDate = new Date();
+const futureDate = new Date(currentDate);
+futureDate.setDate(currentDate.getDate() + 73);
+console.log(futureDate.toLocaleDateString());
+// Задание 9
