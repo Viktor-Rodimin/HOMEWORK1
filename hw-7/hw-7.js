@@ -24,3 +24,18 @@ console.log(ceilNum);
 let roundNum = Math.round(num);
 console.log(roundNum);
 // Задание 3.3
+
+const numbers = [52, 53, 49, 77, 21, 32];
+const min = Math.min(...numbers);
+const max = Math.max(...numbers);
+console.log(`Наименьшее число: ${min}`);
+console.log(`Наибольшее число: ${max}`);
+// Задание 4
+
+function randomInteger(min, max) {
+
+  let rand = min + Math.random() * (max + 1 - min);
+  return Math.floor(rand);
+}
+alert( randomInteger(1, 10) );
+// Задание 5
