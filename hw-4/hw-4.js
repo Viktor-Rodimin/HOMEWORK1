@@ -26,8 +26,8 @@ while (n > 50) {
     num++;
     n /= 2;
 }
-console.log();(n);
-console.log();(num);
+console.log(n);
+console.log(num);
 // Задание 5
 
 let friday = 5
