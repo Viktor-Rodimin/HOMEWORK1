@@ -39,3 +39,15 @@ function randomInteger(min, max) {
 }
 alert( randomInteger(1, 10) );
 // Задание 5
+
+function getRandomArrNumbers(n) {
+  const length = Math.floor(n / 2);
+  const arr = [];
+  for (let i = 0; i < length; i++) {
+    arr.push(Math.floor(Math.random() * (n + 1)));
+  }
+  return arr;
+}
+getRandomArrNumbers(7);
+getRandomArrNumbers(12);
+// Задание 6
