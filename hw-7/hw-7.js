@@ -51,3 +51,9 @@ function getRandomArrNumbers(n) {
 getRandomArrNumbers(7);
 getRandomArrNumbers(12);
 // Задание 6
+
+function getRandomInt (min, max) {
+  return Math.floor (Math.random() * (max - min + 1)) + min;
+}
+getRandomInt (2, 22);
+// Задание 7
