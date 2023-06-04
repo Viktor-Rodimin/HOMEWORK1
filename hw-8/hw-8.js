@@ -30,14 +30,19 @@ function isPositive(num) {
   console.log(filter(human, isMale));
 //   Задание 2
 
-const interval = setInterval(() => {
-    console.log(new Date().toLocaleString());
-  }, 3000);
+function printDate() {
+    console.log(new Date().toString());
+  }
   
-  setTimeout(() => {
-    clearInterval(interval);
-    console.log('30 секунд прошло');
-  }, 30000);
+  let counter = 0;
+  const interval = setInterval(() => {
+    printDate();
+    counter += 3;
+    if (counter >= 30) {
+      clearInterval(interval);
+      console.log('30 секунд прошло');
+    }
+  }, 3000);
 //   Задание 3
 
 function delayForSecond(callback) {
