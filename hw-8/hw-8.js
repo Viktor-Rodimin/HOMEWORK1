@@ -20,14 +20,14 @@ function isPositive(num) {
   
   console.log(filter([3, -4, 1, 9], isPositive));
   
-  const people = [
+  const human = [
      {name: 'Глеб', gender: 'male'},
      {name: 'Анна', gender: 'female'},
      {name: 'Олег', gender: 'male'},
      {name: 'Оксана', gender: 'female'}
   ];
   
-  console.log(filter(people, isMale));
+  console.log(filter(human, isMale));
 //   Задание 2
 
 const interval = setInterval(() => {
@@ -39,4 +39,14 @@ const interval = setInterval(() => {
     console.log('30 секунд прошло');
   }, 30000);
 //   Задание 3
+
+function delayForSecond(callback) {
+    setTimeout(callback, 1000);
+  }
+  
+  delayForSecond(function () {
+    console.log('Привет, Глеб!');
+  });
+//   Задание 4
+
 
