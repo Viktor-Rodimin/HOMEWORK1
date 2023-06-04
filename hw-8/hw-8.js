@@ -30,3 +30,13 @@ function isPositive(num) {
   console.log(filter(people, isMale));
 //   Задание 2
 
+const interval = setInterval(() => {
+    console.log(new Date().toLocaleString());
+  }, 3000);
+  
+  setTimeout(() => {
+    clearInterval(interval);
+    console.log('30 секунд прошло');
+  }, 30000);
+//   Задание 3
+
