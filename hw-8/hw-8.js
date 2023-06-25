@@ -71,3 +71,16 @@ delayForSecond(() => {
     sayHi('Глеб');
   });
 //   Задание 5
+
+
+
+let p0 = 1000; 
+let p = 1200; 
+let years = 0; 
+
+while (p0 < p) {
+  p0 += p0 * 0.02 + 50; 
+  years++; 
+}
+
+console.log(`Городу понадобится ${years} лет, чтобы достичь населения ${p}`);
